@@ -16,3 +16,7 @@ map <silent> <F8> :cnext<CR>
 colorscheme elflord
 syn on
 set directory^=$HOME/vim_swap//
+
+if filereadable(expand("~/.vimrc.local"))
+  source ~/.vimrc.local
+endif
