@@ -1,0 +1,13 @@
+[user]
+	email = sam@sammussmann.net
+	name = Sam Mussmann
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = c:/Program Files/KDiff3/kdiff3.exe
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = c:/Program Files/KDiff3/kdiff3.exe
+[core]
+	autocrlf = true
