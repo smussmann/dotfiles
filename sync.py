@@ -6,7 +6,7 @@ import os
 import os.path
 import sys
 
-FILES = ['.vimrc']
+FILES = ['.vimrc', '.xmonad/xmonad.hs', '.xmonad/xmodmap.sh']
 
 homedir = os.path.expanduser('~')
 
